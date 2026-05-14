@@ -1,0 +1,110 @@
+% !TEX program = xelatex
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[left=1.0cm, right=1.0cm, top=1.0cm, bottom=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{linkcolor}{HTML}{000000}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
+}
+
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\sffamily\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{0.6ex plus 0.5ex minus .1ex}{0.4ex plus .1ex}
+
+\setlist[itemize]{leftmargin=1.5em, nosep, itemsep=0.1ex, topsep=0ex, parsep=0ex, partopsep=0ex}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{minipage}[c]{0.82\textwidth}
+    {\huge \textbf{Jiaxuan Wang}} \\[0.4em]
+    Huazhong University of Science and Technology \quad $\cdot$ \quad School of Electronic Information and Communications \\[0.2em]
+    Undergraduate, Class of 2027 \\[0.2em]
+    $|$ \textbf{Phone} 18879965616 $|$ \textbf{Email} wangjx\_hust@hust.edu.cn $|$
+\end{minipage}%
+\begin{minipage}[c]{0.18\textwidth}
+    \raggedleft
+    \includegraphics[width=2.5cm]{xun.jpg}
+\end{minipage}
+
+\vspace{0.4em}
+
+{\large \textbf{Application Objective: Direct Ph.D. Program}}
+
+\vspace{0.4em}
+
+\section{Education}
+\textbf{Huazhong University of Science and Technology}, School of Electronic Information and Communications, B.Eng. in Electronic Information Engineering \hfill Sep. 2023 -- Jun. 2027\\[0.1em]
+Project-Based Information Engineering Experimental Class (``Seed Class'') \hfill GPA Average: \textbf{84.2} $|$ Ranking: \textbf{Top 30\%}\\[0.1em]
+Selected High-Scoring Core Courses: Fundamentals of Computer Programming in C (96), Digital Electronics (92), Stochastic Processes (92), Analog Electronics (85), Engineering Drawing I (94)\\[0.1em]
+English Proficiency: CET-6 \textbf{519}, CET-4 \textbf{585}\\[0.1em]
+Current \textbf{Captain of Dian Team}; Current \textbf{Leader of the Robotics Group, Dian Team}
+
+\section{Publications and Conferences}
+\begin{itemize}
+    \item Yefan Lin, \textbf{Jiaxuan Wang}, Baoyu Liu, Zheng Lv, and Xiaojun Hei, ``Pallet-ACT: A Unified Data-Training-Inference Framework for Industrial Robotic Palletizing.'' \textit{7th Information Communication Technologies Conference (\textbf{ICTC})}, Nanjing, China, May 2026. (\textbf{Passed initial review})
+    \item Yuhan Huang, Zijian Ning, Ziyuan Wang, \textbf{Jiaxuan Wang}, Xiaojun Hei, ``Reinforcement Learning with Stage-Wise Model Fusion for Sequential Object Manipulation Tasks.'' \textit{IEEE International Conference on Robotics and Biomimetics (\textbf{ROBIO})}, Chengdu, China, December 2025.
+\end{itemize}
+
+\section{Skills and Tools}
+\begin{itemize}
+    \item \textbf{Programming Languages}: Proficient in Python and C.
+    \item \textbf{Robot Control and Real-World Deployment}: Extensive hands-on experience with operation, debugging, and deployment of 6-axis robotic arms; familiar with ROS 2 and the MoveIt 2 motion planning framework; experienced in applying reinforcement learning (RL) and imitation learning (IL) algorithms to robotic control and real-world tasks.
+    \item \textbf{Simulation and 3D Modeling}: Skilled in using the MuJoCo physics engine for robotic simulation and testing; proficient in SolidWorks for 3D modeling and mechanical structure design; experienced in practical 3D printing workflows.
+    \item \textbf{Development Environments and Productivity Tools}: Familiar with Linux; skilled with mainstream IDEs such as VSCode; familiar with VMware, Anaconda, and environment management tools; experienced in using modern AI tools to support programming, documentation, and research work.
+\end{itemize}
+
+\section{Competitions and Research Projects}
+\textbf{ICRA 2025 Sim2Real Challenge} | \textbf{International Second Prize} (4th Place Worldwide)
+\begin{itemize}
+    \item Served as a core member of DianRobot, demonstrating strong sim-to-real transfer capability and algorithmic control performance in a complex sequential object manipulation track.
+\end{itemize}
+
+\vspace{0.2em}
+\textbf{Intelligent Robotic Arm Application for Chemistry Experiments Based on Imitation Learning} | \textbf{Provincial Undergraduate Innovation Project, Ongoing} \hfill 2025
+\begin{itemize}
+    \item Served as a core contributor and project lead, deeply involved in project execution and responsible for accurate robotic grasping of chemistry laboratory instruments. Advisor: Xiaojun Hei.
+\end{itemize}
+
+\vspace{0.2em}
+\textbf{Reinforcement-Learning-Enabled Robotic Coffee Service Application} | \textbf{Second Prize, Undergraduate Group, Central-South China Regional Competition} \hfill 2024
+\begin{itemize}
+    \item Solved robotic arm joint zero-drift issues during coffee cup grasping through visual compensation; implemented finger localization and grasp-success detection using a bounding-box-based approach.
+\end{itemize}
+
+\vspace{0.2em}
+\textbf{Robot Coffee-Making Based on Reinforcement Learning} | \textbf{Industry Collaboration Project, Completed} \hfill Jul. 2023 -- Apr. 2024
+\begin{itemize}
+    \item Participated in an industry collaboration project with CloudMinds Robotics; contributed to robotic coffee service design and system development, and built the external demonstration workflow for coffee-making.
+\end{itemize}
+
+\vspace{0.2em}
+\textbf{Dian Team Reception Robot Application Design} | \textbf{University-Level Undergraduate Innovation Project, Completed with Excellence} \hfill 2023
+\begin{itemize}
+    \item Participated in the full application design process for a reception robot, including dance motion design and choreography. Advisors: Xiaojun Hei and Chengwei Zhang.
+\end{itemize}
+
+\vspace{0.2em}
+\textbf{Embedded Systems Course Project: Intelligent Heated Cup Mat} | \textbf{Core Developer} \hfill Sep. 2025 -- Mar. 2026
+\begin{itemize}
+    \item Contributed to the overall software and hardware development of an intelligent heated cup mat, leading enclosure and structural design with \textbf{SolidWorks}.
+\end{itemize}
+
+\section{Additional Teaching and Engineering Projects}
+\begin{itemize}
+    \item \textbf{Core Course Development}: Contributed to the development of the Excellent Engineer Training course \textit{Service Robot Application Design} (Jan. 2026 -- Dec. 2027, \textbf{ongoing}).
+    \item \textbf{Textbook Development}: Contributed to the writing and development of the Excellent Engineer Training textbook \textit{Service Robot Application System Design and Experiments} (Jan. 2026 -- Dec. 2027, \textbf{ongoing}).
+    \item \textbf{Teaching Research Project}: Participated in the teaching research project ``A Robotics Training System for Integrated Undergraduate-to-Graduate Professional Degree Education Based on Deep Industry-Education Integration'' (Jan. 2025 -- Dec. 2026, \textbf{ongoing}).
+\end{itemize}
+
+\end{document}
