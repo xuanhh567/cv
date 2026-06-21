@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jiaxuan Wang - CV</title>
+  <title>Jiaxuan Wang - Academic CV</title>
   <style>
     @page {
       size: A4;
-      margin: 10mm;
+      margin: 11.5mm;
     }
 
     * {
@@ -18,67 +18,58 @@
       margin: 0;
       color: #111;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 10.4px;
-      line-height: 1.26;
+      font-size: 10.8px;
+      line-height: 1.38;
       background: #fff;
     }
 
     .page {
-      width: 190mm;
+      width: 187mm;
       margin: 0 auto;
     }
 
     header {
-      display: grid;
-      grid-template-columns: 1fr 32mm;
-      gap: 8mm;
-      align-items: center;
-      margin-bottom: 5px;
+      margin-bottom: 6px;
     }
 
     h1 {
-      margin: 0 0 5px;
-      font-size: 30px;
+      margin: 0 0 4px;
+      font-size: 31px;
       line-height: 1;
       letter-spacing: 0;
     }
 
     .headline {
-      font-size: 11px;
-      line-height: 1.35;
+      font-size: 10.8px;
+      line-height: 1.42;
     }
 
-    .photo {
-      width: 32mm;
-      height: auto;
-      display: block;
-    }
-
-    .focus {
-      margin: 5px 0 6px;
-      font-size: 11px;
-      font-weight: 600;
+    a {
+      color: #001473;
+      text-decoration: none;
     }
 
     h2 {
-      margin: 6px 0 3px;
+      margin: 8px 0 4px;
       padding-bottom: 2px;
       border-bottom: 1px solid #111;
-      font-size: 15px;
+      font-size: 14.2px;
       line-height: 1.15;
+      font-variant: small-caps;
+      letter-spacing: 0;
     }
 
     p {
-      margin: 0 0 2px;
+      margin: 0 0 3px;
     }
 
-    ul {
-      margin: 1px 0 0 16px;
+    ul, ol {
+      margin: 3px 0 0 17px;
       padding: 0;
     }
 
     li {
-      margin: 0 0 2px;
+      margin: 0 0 3px;
       padding-left: 1px;
     }
 
@@ -89,16 +80,36 @@
       align-items: baseline;
     }
 
+    .row > p:first-child {
+      flex: 1;
+    }
+
     .date {
       white-space: nowrap;
       text-align: right;
+      color: #222;
     }
 
     .item {
-      margin-top: 4px;
+      margin-top: 5px;
     }
 
-    .muted {
+    .item-title {
+      font-size: 10.9px;
+      font-weight: 700;
+    }
+
+    .item-meta {
+      color: #222;
+      font-size: 10.4px;
+      font-style: italic;
+    }
+
+    .tag {
+      font-weight: 700;
+    }
+
+    .note {
       color: #222;
     }
 
@@ -110,122 +121,98 @@
 <body>
   <main class="page">
     <header>
-      <div>
-        <h1>Jiaxuan Wang</h1>
-        <div class="headline">
-          Huazhong University of Science and Technology &middot; School of Electronic Information and Communications<br>
-          Undergraduate &middot; Expected Graduation: June 2027<br>
-          | <strong>Phone</strong> 18879965616 | <strong>Email</strong> wangjx_hust@hust.edu.cn |
-        </div>
+      <h1>Jiaxuan Wang</h1>
+      <div class="headline">
+        <strong>Email:</strong> <a href="mailto:wangjx_hust@hust.edu.cn">wangjx_hust@hust.edu.cn</a><br>
+        <strong>Phone:</strong> +86 188 7996 5616<br>
+        <a href="https://github.com/xuanhh567">[GitHub: xuanhh567]</a>
       </div>
-      <img class="photo" src="xun.jpg" alt="Jiaxuan Wang">
     </header>
 
-    <div class="focus">Research Interest: Robotics, Computer Vision, Embodied AI, and Vision-Language-Action Models</div>
+    <section>
+      <h2>Short Bio</h2>
+      <p>I am currently an undergraduate student in Electronic Information Engineering at Huazhong University of Science and Technology, where I serve as Captain of Dian Team and Lead of its Robotics Group.</p>
+      <p>I closely follow frontier research in embodied AI and robot learning, with a strong interest in identifying practical problems and formulating feasible technical ideas. I combine research intuition with hands-on engineering by reproducing representative models, adapting them to robotic training workflows, and validating ideas on open-source robotic arms. My long-term goal is to build general-purpose robots that learn robust skills and assist people in the real world.</p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <p>Embodied AI; Robot Learning; Real-World Robot Deployment.</p>
+    </section>
 
     <section>
       <h2>Education</h2>
       <div class="row">
-        <p><strong>Huazhong University of Science and Technology</strong>, School of Electronic Information and Communications, B.Eng. in Electronic Information Engineering</p>
+        <p><strong>Huazhong University of Science and Technology</strong></p>
         <p class="date">Sep. 2023 - Jun. 2027</p>
       </div>
-      <div class="row">
-        <p>Project-Based Information Engineering Experimental Class ("Seed Class")</p>
-        <p class="date">Weighted Average: <strong>84.5/100</strong> | Ranking: <strong>Top 30%</strong></p>
-      </div>
-      <p>Selected High-Scoring Core Courses: Fundamentals of Computer Programming in C (96), Digital Electronics (92), Stochastic Processes (92), Analog Electronics (85), Engineering Drawing I (94)</p>
-      <p>English Proficiency: CET-6 <strong>519</strong>, CET-4 <strong>585</strong></p>
-      <p>Current <strong>Captain of Dian Team</strong>; Current <strong>Leader of the Robotics Group, Dian Team</strong></p>
+      <p>B.Eng. in Electronic Information Engineering</p>
+      <p>Project-Based Information Engineering Experimental Class ("Seed Class"); Weighted Average: <strong>84.5/100</strong>; CET-6: <strong>519</strong>.</p>
     </section>
 
     <section>
-      <h2>Publications and Conferences</h2>
-      <ul>
-        <li>Yefan Lin, <strong>Jiaxuan Wang</strong>, Baoyu Liu, Zheng Lv, and Xiaojun Hei, "Pallet-ACT: A Unified Data-Training-Inference Framework for Industrial Robotic Palletizing." <em>7th Information Communication Technologies Conference (<strong>ICTC</strong>)</em>, Nanjing, China, May 2026. (<strong>Accepted</strong>)</li>
-        <li>Yuhan Huang, Zijian Ning, Ziyuan Wang, <strong>Jiaxuan Wang</strong>, Xiaojun Hei, "Reinforcement Learning with Stage-Wise Model Fusion for Sequential Object Manipulation Tasks." <em>IEEE International Conference on Robotics and Biomimetics (<strong>ROBIO</strong>)</em>, Chengdu, China, December 2025.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skills, Tools, and Leadership</h2>
-      <ul>
-        <li><strong>Programming and Embodied AI:</strong> Proficient in Python and C; experienced in applying reinforcement learning (RL) and imitation learning (IL) to robotic control tasks; successfully reproduced Pi-series VLA models, with the ability to read, adapt, and reproduce frontier model code.</li>
-        <li><strong>Robot Control and Real-World Deployment:</strong> Extensive hands-on experience with operation, debugging, and deployment of 6-axis robotic arms; familiar with ROS 2 and MoveIt 2, with experience closing the loop from simulation validation to real-system deployment.</li>
-        <li><strong>Simulation, Modeling, and Engineering:</strong> Skilled in MuJoCo-based robotic simulation and testing; proficient in SolidWorks for 3D modeling and mechanical structure design; experienced in practical 3D printing workflows.</li>
-        <li><strong>Leadership and Project Execution:</strong> Current Captain of Dian Team and Leader of its Robotics Group; coordinate task allocation, technical-roadmap execution, project demonstrations, and competition collaboration under time pressure.</li>
-        <li><strong>Research Communication and Technical Media:</strong> Long-term interest in photography, video production, and technical demonstration; able to produce robotic demo videos, experiment records, and technical explanation materials for research presentation, project reporting, and academic communication.</li>
-        <li><strong>Development Environment and Tools:</strong> Familiar with Linux, VSCode, VMware, Anaconda, and environment management tools; use modern AI tools to support programming, documentation, and research; maintain regular swimming, basketball, and badminton training habits.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Competitions and Research Projects</h2>
-      <div class="item">
-        <p><strong>ICRA 2025 Sim2Real Challenge</strong> | <strong>International Second Prize</strong> (4th Place Worldwide)</p>
-        <ul>
-          <li>Served as a core member of DianRobot, demonstrating strong sim-to-real transfer capability and algorithmic control performance in a complex sequential object manipulation track.</li>
-        </ul>
-      </div>
-
+      <h2>Competitions and Projects</h2>
       <div class="item">
         <div class="row">
-          <p><strong>Intelligent Robotic Arm Application for Chemistry Experiments Based on Imitation Learning</strong> | <strong>Provincial Undergraduate Innovation Project, Team Leader, Completed with Excellence</strong></p>
+          <p class="item-title">ICRA 2025 Sim2Real Challenge</p>
           <p class="date">2025</p>
         </div>
+        <p class="item-meta">Core Member, DianRobot</p>
         <ul>
-          <li>Served as team leader, coordinating project execution, task allocation, and technical implementation; completed accurate robotic grasping of chemistry laboratory instruments. Advisor: Xiaojun Hei.</li>
+          <li>Designed and evaluated tabletop bimanual grasping strategies for objects of different shapes and categories, including action-sequence debugging, rollout analysis, real-robot validation, and challenge demonstration preparation.</li>
         </ul>
       </div>
 
       <div class="item">
         <div class="row">
-          <p><strong>Reinforcement-Learning-Enabled Robotic Coffee Service Application</strong> | <strong>Second Prize, Undergraduate Group, Central-South China Regional Competition</strong></p>
-          <p class="date">2024</p>
+          <p class="item-title">Robotic Arm Application for Chemistry Experiments Based on Imitation Learning</p>
+          <p class="date">2025</p>
         </div>
+        <p class="item-meta">Provincial Undergraduate Innovation Project; Team Leader</p>
         <ul>
-          <li>Solved robotic arm joint zero-drift issues during coffee cup grasping through visual compensation; implemented finger localization and grasp-success detection using a bounding-box-based approach.</li>
+          <li>Led task decomposition, data-collection workflow design, imitation-learning training, real-arm testing, and grasping experiments for chemistry-lab instruments.</li>
         </ul>
       </div>
 
       <div class="item">
         <div class="row">
-          <p><strong>Robot Coffee-Making Based on Reinforcement Learning</strong> | <strong>Industry Collaboration Project, Completed</strong></p>
+          <p class="item-title">Robot Coffee-Making Based on Reinforcement Learning</p>
           <p class="date">Jul. 2023 - Apr. 2024</p>
         </div>
+        <p class="item-meta">Industry Collaboration Project with CloudMinds Robotics</p>
         <ul>
-          <li>Participated in an industry collaboration project with CloudMinds Robotics; contributed to robotic coffee service design and system development, and built the external demonstration workflow for coffee-making.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="row">
-          <p><strong>Dian Team Reception Robot Application Design</strong> | <strong>University-Level Undergraduate Innovation Project, Completed with Excellence</strong></p>
-          <p class="date">2023</p>
-        </div>
-        <ul>
-          <li>Participated in the full application design process for a reception robot, including dance motion design and choreography. Advisors: Xiaojun Hei and Chengwei Zhang.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="row">
-          <p><strong>Embedded Systems Course Project: Intelligent Heated Cup Mat</strong> | <strong>Core Developer</strong></p>
-          <p class="date">Sep. 2025 - Mar. 2026</p>
-        </div>
-        <ul>
-          <li>Contributed to the overall software and hardware development of an intelligent heated cup mat, leading enclosure and structural design with <strong>SolidWorks</strong>.</li>
+          <li>Built the coffee-service demonstration workflow; supported cup grasping, localization, and success-check modules; addressed joint zero-drift through visual compensation.</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h2>Additional Teaching and Engineering Projects</h2>
+      <h2>Publications</h2>
+      <ol>
+        <li><span class="tag">[ICTC 2026]</span> Yefan Lin, <strong>Jiaxuan Wang</strong>, Baoyu Liu, Zheng Lv, and Xiaojun Hei, "Pallet-ACT: A Unified Data-Training-Inference Framework for Industrial Robotic Palletizing." <em>7th Information Communication Technologies Conference</em>, Nanjing, China, May 2026. <strong>Accepted</strong>.</li>
+        <li><span class="tag">[ROBIO 2025]</span> Yuhan Huang, Zijian Ning, Ziyuan Wang, <strong>Jiaxuan Wang</strong>, Xiaojun Hei, "Reinforcement Learning with Stage-Wise Model Fusion for Sequential Object Manipulation Tasks." <em>IEEE International Conference on Robotics and Biomimetics</em>, Chengdu, China, Dec. 2025.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
       <ul>
-        <li><strong>Core Course Development:</strong> Contributed to the development of the Excellent Engineer Training course <em>Service Robot Application Design</em> (Jan. 2026 - Dec. 2027, <strong>ongoing</strong>).</li>
-        <li><strong>Textbook Development:</strong> Contributed to the writing and development of the Excellent Engineer Training textbook <em>Service Robot Application System Design and Experiments</em> (Jan. 2026 - Dec. 2027, <strong>ongoing</strong>).</li>
-        <li><strong>Teaching Research Project:</strong> Participated in the teaching research project "A Robotics Training System for Integrated Undergraduate-to-Graduate Professional Degree Education Based on Deep Industry-Education Integration" (Jan. 2025 - Dec. 2026, <strong>ongoing</strong>).</li>
+        <li><strong>ICRA 2025 Sim2Real Challenge:</strong> International Second Prize, 4th Place Worldwide.</li>
+        <li><strong>Chinese Collegiate Computing Competition (4C), Central-South Division, Undergraduate Group:</strong> Second Prize, 2024, for "Reinforcement-Learning-Enabled Robotic Coffee Service Application."</li>
+        <li><strong>Robotic Arm Application for Chemistry Experiments Based on Imitation Learning:</strong> Provincial Undergraduate Innovation Project, Team Leader, rated Excellent, 2025.</li>
+        <li><strong>Dian Team Reception Robot Application Design:</strong> University-level Undergraduate Innovation Project, rated Excellent, 2023.</li>
       </ul>
     </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Robot Learning:</strong> reinforcement learning, imitation learning, robotic control, Pi-series vision-language-action (VLA) model reproduction.</li>
+        <li><strong>Robotics Stack:</strong> 6-axis robotic-arm operation and deployment, ROS 2, MoveIt 2, MuJoCo simulation, real-robot data collection.</li>
+        <li><strong>Engineering:</strong> Python, C, PyTorch, NumPy, OpenCV, Git, Linux, SolidWorks, 3D printing.</li>
+      </ul>
+    </section>
+
   </main>
 </body>
 </html>
